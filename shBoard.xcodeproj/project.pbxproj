@@ -15,6 +15,7 @@
 		4AF0B82A25A45DD20027C5A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0B7FF25A45DCD0027C5A4 /* ContentView.swift */; };
 		4AF0B82B25A45DD20027C5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF0B80025A45DD10027C5A4 /* Assets.xcassets */; };
 		4AF0B82C25A45DD20027C5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF0B80025A45DD10027C5A4 /* Assets.xcassets */; };
+		4AF0B84425A461580027C5A4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4AF0B84325A461580027C5A4 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4AF0B82025A45DD20027C5A4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF0B82425A45DD20027C5A4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		4AF0B82625A45DD20027C5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF0B84325A461580027C5A4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		4AF0B7F825A45DCD0027C5A4 = {
 			isa = PBXGroup;
 			children = (
+				4AF0B84325A461580027C5A4 /* Settings.bundle */,
 				4AF0B7FD25A45DCD0027C5A4 /* Shared */,
 				4AF0B80725A45DD10027C5A4 /* iOS */,
 				4AF0B80E25A45DD10027C5A4 /* macOS */,
@@ -275,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF0B84425A461580027C5A4 /* Settings.bundle in Resources */,
 				4AF0B82B25A45DD20027C5A4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
